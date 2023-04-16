@@ -16,10 +16,10 @@ else {
     <?php
     foreach ($list_hanghoa as $v) {
         if (isset($v->giathamkhao)) {
-            echo $v->giathamkhao;
+            echo "";
         }
         else {
-            echo "không tồn tại thuộc tính";
+            echo "";
         }
         ?>
         <a href="./index.php?reqHanghoa=<?php echo $v->idhanghoa;?>">
